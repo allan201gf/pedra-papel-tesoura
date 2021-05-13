@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pedra Papel Tesoura</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+<h1 class="titulo">Pedra, Papel ou Tesoura</h1>
+<p class="total"></p>
+<table class="calculadora">
+
+  <tr>
+    <td><center>Pontos jogador</center></td>
+    <td><center>Pontos computador</center></td>
+  </tr>
+  <tr>
+  <td colspan="1"><input type="text" class="pontosj"></td>
+  <td colspan="1"><input type="text" class="pontospc"></td>
+  </tr>
+
+  <tr>
+    <td><center>Escolha sua jogada:</center></td>
+    <td rowspan="2"><center>Escolha do computador:</center></td>
+  </tr>
+  <tr>
+    <td colspan="1"><button class="btn pedra">pedra</button></td>
+
+  </tr>
+  <tr>
+    <td colspan="1"><button class="btn papel">papel</button></td>
+    <td colspan="1" rowspan="2"><input type="text" class="escolhapc"></td>
+  </tr>
+  <tr>
+    <td colspan="1"><button class="btn tesoura">tesoura</button></td>
+  </tr>
+
+
+</table>
+
+<p class="ganhador"></p>
+<p class="assinatura">criado por Allan GF</p>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
